@@ -1,0 +1,1701 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FPT Training System</title>
+
+        <!-- Meta Tags -->
+        <meta charset="utf-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Webestica.com">
+        <meta name="description"
+            content="Eduport- LMS, Education and Course Theme">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="./assets/images/favicon.ico">
+
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap">
+
+        <!-- Plugins CSS -->
+        <link rel="stylesheet" type="text/css"
+            href="./assets/vendor/font-awesome/css/all.min.css">
+        <link rel="stylesheet" type="text/css"
+            href="./assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" type="text/css"
+            href="./assets/vendor/tiny-slider/tiny-slider.css">
+
+        <!-- Theme CSS -->
+        <!-- <link rel="stylesheet" type="text/css" href="./assets/css/style.css"> -->
+        <script src="https://cdn.tailwindcss.com/"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Top alert START -->
+        <!-- <div class="container mx-auto sm:px-4">
+    <div
+        class="relative px-3 py-3 mb-4 border rounded bg-green-200 border-green-300 text-green-800  flex justify-between items-center opacity-0 opacity-100 block mt-2 mb-0 rounded-3 pe-2"
+        role="alert">
+        <div>
+            <div class="avatar avatar-xs me-2">
+                <img class="avatar-img rounded-full" src="./assets/images/avatar/09.jpg"
+                    alt="avatar">
+            </div>
+            The personality development class starts at 2:00 pm, click to <a href="#"
+                class="font-bold no-underline text-current">Join Now</a>
+        </div>
+        <button type="button" class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 leading-normal no-underline font-normal text-blue-700 bg-transparent text-primary-hover mb-0 text-end"
+            data-bs-dismiss="alert" aria-label="Close"><i
+                class="bi bi-x-lg"></i></button>
+    </div>
+</div> -->
+        <!-- Top alert END -->
+
+        <!-- Header START -->
+        <header class="text-black navbar-sticky header-static">
+            <!-- Logo Nav START -->
+            <nav
+                class="relative flex flex-wrap items-center content-between py-3 px-4 ">
+                <div class="container mx-auto sm:px-4">
+                    <!-- Logo START -->
+                    <a
+                        class="inline-block pt-1 pb-1 mr-4 text-lg whitespace-no-wrap"
+                        href="index.html">
+                        <img class="light-mode-item navbar-brand-item"
+                            src="./assets/images/fpt.svg" alt="logo">
+                        <img class="dark-mode-item navbar-brand-item"
+                            src="./assets/images/fpt.svg" alt="logo">
+                    </a>
+                    <!-- Logo END -->
+
+                    <!-- Responsive navbar toggler -->
+                    <button
+                        class="py-1 px-2 text-md leading-normal bg-transparent border border-transparent rounded ms-auto"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-animation">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </button>
+
+                    <!-- Main navbar START -->
+                    <div class="flex-grow items-center w-full hidden"
+                        id="navbarCollapse">
+
+                        <!-- Nav Main menu START -->
+                        <ul
+                            class="flex flex-wrap list-reset pl-0 mb-0 navbar-nav-scroll mx-auto">
+                            <!-- Nav item 1 Courses -->
+                            <li class><a
+                                    class="inline-block py-2 px-4 no-underline"
+                                    href="./courses.html">Courses</a></li>
+                            <li class><a
+                                    class="inline-block py-2 px-4 no-underline"
+                                    href="./courses.html">About Us</a></li>
+                            <li class><a
+                                    class="inline-block py-2 px-4 no-underline"
+                                    href="./courses.html">Help Center</a></li>
+                            <li class><a
+                                    class="inline-block py-2 px-4 no-underline"
+                                    href="./courses.html">FAQs</a></li>
+
+                            <!-- Nav item 5 link-->
+                            <li class=" relative">
+                                <a class="inline-block py-2 px-4 no-underline"
+                                    href="#" id="advanceMenu"
+                                    data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </a>
+                                <ul
+                                    class=" absolute left-0 z-50 float-left hidden list-reset	 py-2 mt-1 text-base bg-white border border-gray-300 rounded dropdown-menu-end min-w-auto"
+                                    data-bs-popper="none">
+                                    <li>
+                                        <a
+                                            class="block w-full py-1 px-6 font-normal text-gray-900 whitespace-no-wrap border-0"
+                                            href="https://support.webestica.com/"
+                                            target="_blank">
+                                            <i
+                                                class="text-yellow-500 fa-fw bi bi-life-preserver me-2"></i>Support
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="block w-full py-1 px-6 font-normal text-gray-900 whitespace-no-wrap border-0"
+                                            href="docs/index.html"
+                                            target="_blank">
+                                            <i
+                                                class="text-red-600 fa-fw bi bi-card-text me-2"></i>Documentation
+                                        </a>
+                                    </li>
+                                    <li> <hr
+                                            class="h-0 my-2 overflow-hidden border-t-1 border-gray-300"></li>
+                                    <li>
+                                        <a
+                                            class="block w-full py-1 px-6 font-normal text-gray-900 whitespace-no-wrap border-0"
+                                            href="https://eduport.webestica.com/rtl/"
+                                            target="_blank">
+                                            <i
+                                                class="text-teal-500 fa-fw bi bi-toggle-off me-2"></i>RTL
+                                            demo
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="block w-full py-1 px-6 font-normal text-gray-900 whitespace-no-wrap border-0"
+                                            href="https://themes.getbootstrap.com/store/webestica/"
+                                            target="_blank">
+                                            <i
+                                                class="text-green-500 fa-fw bi bi-cloud-download-fill me-2"></i>Buy
+                                            Eduport!
+                                        </a>
+                                    </li>
+                                    <li> <hr
+                                            class="h-0 my-2 overflow-hidden border-t-1 border-gray-300"></li>
+                                    <li>
+                                        <a
+                                            class="block w-full py-1 px-6 font-normal text-gray-900 whitespace-no-wrap border-0"
+                                            href="docs/alerts.html"
+                                            target="_blank">
+                                            <i
+                                                class="text-orange fa-fw bi bi-puzzle-fill me-2"></i>Components
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="block w-full py-1 px-6 font-normal text-gray-900 whitespace-no-wrap border-0"
+                                            href="docs/snippets.html">
+                                            <i
+                                                class="text-purple fa-fw bi bi-stickies-fill me-2"></i>Snippets
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- Nav Main menu END -->
+
+                        <!-- Nav Search START -->
+                        <div
+                            class="flex flex-wrap list-none pl-0 mb-0 my-3 xl:my-0 px-4 flex-no-wrap items-center">
+                            <div class=" w-full">
+                                <form class="relative">
+                                    <input
+                                        class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded pe-5 bg-transparent"
+                                        type="search"
+                                        placeholder="Search"
+                                        aria-label="Search">
+                                    <button
+                                        class="bg-transparent p-2 absolute top-50 end-0 translate-middle-y border-0 text-primary-hover text-reset"
+                                        type="submit">
+                                        <i class="fas fa-search fs-6 "></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- Nav Search END -->
+                    </div>
+                    <!-- Main navbar END -->
+
+                    <!-- Profile START -->
+                    <div class="relative ms-1 lg:ms-0">
+                        <a class="avatar avatar-sm p-0" href="#"
+                            id="profileDropdown"
+                            role="button" data-bs-auto-close="outside"
+                            data-bs-display="static"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img class="avatar-img rounded-full"
+                                src="assets/images/avatar/01.jpg"
+                                alt="avatar">
+                        </a>
+                        <ul
+                            class=" absolute left-0 z-50 float-left hidden list-reset	 py-2 mt-1 text-base bg-white border border-gray-300 rounded dropdown-animation dropdown-menu-end shadow pt-3"
+                            aria-labelledby="profileDropdown">
+                            <!-- Profile info -->
+                            <li class="px-3 mb-3">
+                                <div class="flex items-center">
+                                    <!-- Avatar -->
+                                    <div class="avatar me-3">
+                                        <img
+                                            class="avatar-img rounded-full shadow"
+                                            src="assets/images/avatar/01.jpg"
+                                            alt="avatar">
+                                    </div>
+                                    <div>
+                                        <a class="h6" href="#">Pham Trung
+                                            Nghia</a>
+                                        <p
+                                            class="text-xs m-0">nghiapt@fe.edu.vn</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li> <hr
+                                    class="h-0 my-2 overflow-hidden border-t-1 border-gray-300"></li>
+                            <!-- Links -->
+                            <li><a href="./admin-dashboard.html"
+                                    class="block w-full py-1 px-6 font-normal text-gray-900 whitespace-no-wrap border-0">
+                                    <i
+                                        class="bi bi-person-lock fa-fw me-2"></i>Admin
+                                    Setting</a></li>
+                            <li><a
+                                    class="block w-full py-1 px-6 font-normal text-gray-900 whitespace-no-wrap border-0"
+                                    href="#"><i
+                                        class="bi bi-person fa-fw me-2"></i>Edit
+                                    Profile</a></li>
+                            <li><a
+                                    class="block w-full py-1 px-6 font-normal text-gray-900 whitespace-no-wrap border-0"
+                                    href="#"><i
+                                        class="bi bi-gear fa-fw me-2"></i>Account
+                                    Settings</a></li>
+                            <li><a
+                                    class="block w-full py-1 px-6 font-normal text-gray-900 whitespace-no-wrap border-0"
+                                    href="#"><i
+                                        class="bi bi-info-circle fa-fw me-2"></i>Help</a></li>
+                            <li><a
+                                    class="block w-full py-1 px-6 font-normal text-gray-900 whitespace-no-wrap border-0 bg-danger-soft-hover"
+                                    href="#"><i
+                                        class="bi bi-power fa-fw me-2"></i>Sign
+                                    Out</a></li>
+                            <li> <hr
+                                    class="h-0 my-2 overflow-hidden border-t-1 border-gray-300"></li>
+                            <!-- Dark mode options START -->
+                            <li>
+                                <div
+                                    class="bg-gray-100 dark-mode-switch theme-icon-active flex items-center p-1 rounded mt-2">
+                                    <button type="button"
+                                        class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded  no-underline py-1 px-2 leading-tight text-xs  mb-0"
+                                        data-bs-theme-value="light">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="16" height="16"
+                                            fill="currentColor"
+                                            class="bi bi-sun fa-fw mode-switch"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                                            <use href="#"></use>
+                                        </svg> Light
+                                    </button>
+                                    <button type="button"
+                                        class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded  no-underline py-1 px-2 leading-tight text-xs  mb-0"
+                                        data-bs-theme-value="dark">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="16" height="16"
+                                            fill="currentColor"
+                                            class="bi bi-moon-stars fa-fw mode-switch"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                                            <path
+                                                d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+                                            <use href="#"></use>
+                                        </svg> Dark
+                                    </button>
+                                    <button type="button"
+                                        class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded  no-underline py-1 px-2 leading-tight text-xs  mb-0 active"
+                                        data-bs-theme-value="auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="16" height="16"
+                                            fill="currentColor"
+                                            class="bi bi-circle-half fa-fw mode-switch"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+                                            <use href="#"></use>
+                                        </svg> Auto
+                                    </button>
+                                </div>
+                            </li>
+                            <!-- Dark mode options END-->
+                        </ul>
+                    </div>
+                    <!-- Profile START -->
+                </div>
+            </nav>
+            <!-- Logo Nav END -->
+        </header>
+        <!-- Header END -->
+
+        <!-- **************** MAIN CONTENT START **************** -->
+        <main>
+
+            <!-- =======================
+Main Banner START -->
+            <section class="pt-0">
+                <div class="container mx-auto sm:px-4">
+                    <div class="flex flex-wrap ">
+                        <div class="w-full">
+                            <!-- Slider START -->
+                            <div
+                                class="tiny-slider arrow-round arrow-blur arrow-hover rounded-3 overflow-hidden">
+                                <div class="tiny-slider-inner"
+                                    data-autoplay="false" data-gutter="0"
+                                    data-arrow="true" data-dots="false"
+                                    data-items="1">
+                                    <!-- Card item START -->
+                                    <div
+                                        class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 overflow-hidden h-500px h-md-600px text-center rounded-none"
+                                        style="background-image:url(assets/images/banner/btec.jpg); background-position: center left; background-size: cover;">
+                                    </div>
+                                    <!-- Card item END -->
+
+                                    <!-- Card item START -->
+                                    <div
+                                        class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 overflow-hidden h-500px h-md-600px text-center rounded-none"
+                                        style="background-image:url(assets/images/bg/02.jpg); background-position: center left; background-size: cover;">
+                                    </div>
+                                    <!-- Card item END -->
+                                </div>
+                            </div>
+                            <!-- Slider END -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- =======================
+Main Banner END -->
+
+            <!-- =======================
+About START -->
+            <section class="pt-0 md:pt-12">
+                <div class="container mx-auto sm:px-4">
+                    <div class="flex flex-wrap  g-md-5 items-center">
+                        <div class="lg:w-1/2 pr-4 pl-4 mb-3 lg:mb-0">
+                            <div class="flex flex-wrap  mt-4 md:mt-0">
+                                <!-- Image 1 -->
+                                <div class="w-1/2">
+                                    <img class="rounded"
+                                        src="assets/images/about/01.jpg" alt>
+                                </div>
+
+                                <!-- Image 2 -->
+                                <div class="w-1/2 mt-5 relative">
+                                    <img class="rounded"
+                                        src="assets/images/about/02.jpg" alt>
+                                    <!-- SVG decoration -->
+                                    <figure
+                                        class="absolute top-0 end-0 mb-5 mt-n4 hidden lg:block">
+                                        <svg width="192.5px" height="89.4px"
+                                            viewBox="0 0 192.5 89.4">
+                                            <path class="fill-primary"
+                                                d="M170.2,0.5c-0.1,0-0.2,0-0.4,0c-2.6-0.1-5.2-0.4-7.8-0.5c-2.9-0.1-5.8,0-8.6,0.2c-1.4,0.1-2.9,0.3-4.3,0.5 c-0.5,0.1-1,0-1.5,0c-1-0.1-1.9,0.2-2.9,0.3c-5.6,0.9-11.1,2.1-16.5,3.6c-2.7,0.7-5.4,1.6-8.1,2.5c-0.6,0.2-1.2,0.4-1.8,0.5 c-0.4,0-0.8,0-1.2,0.1c-1.5,0.2-3,1.1-4.3,1.8c-3,1.5-5.9,3.2-8.6,5.2c-2,1.5-3.8,3.1-5.6,4.8c-0.9,0.9-1.7,1.8-2.5,2.7 c-0.4,0.4-1.1,0.7-1.4,1.2c-0.3,0.4-0.6,0.9-0.9,1.4c-0.9,1.2-1.7,2.3-2.7,3.4c-0.3,0.4-0.7,0.6-1.2,0.6c-1.4,0.1-2.8-0.1-4.2-0.1 c-0.7,0-1.2,0.2-1.9,0.2c-3.3,0.4-6.6,0.7-9.8,1.6c-1.7,0.5-3.4,0.9-5.1,1.4c-5.4,1.5-11,2.9-16,5.4c-4.6,2.2-8.7,5.2-12.7,8.3 c-2,1.6-4,3.2-5.9,4.9c-0.8,0.7-1.6,1.2-2.5,1.6c-0.9,0.5-1.7,1.3-2.4,2c-1.4,1.3-2.9,2.6-4.3,3.9c-1.2,1.1-2.5,2.1-3.6,3.3 c-0.9,1-2,1.9-3,2.8c-1,0.9-2.1,1.9-3.1,2.8c-0.8,0.7-1.6,1.2-2.3,1.9c-0.9,0.9-1.7,1.9-2.7,2.7c0-0.7,0.2-1.3,0.2-2 c0-1.8-0.2-3.7-0.7-5.5c-0.2-0.9-0.5-1.8-1.1-2.4c-0.6-0.7-1.7-1-2.4-0.6c-0.1,0.1-0.3,0.2-0.4,0.3c-0.1,0.2-0.1,0.4,0,0.6 c0.7,3.7,1.2,7.4,0.7,11.1c-0.2,2.4-0.9,4.9-2,7c-0.5,1-1.2,1.9-1.7,3c-0.4,1-1.4,1.8-2.1,2.7C0.3,86,0.1,86.3,0,86.6 c-0.1,0.4,0.1,0.7,0.2,1.1c0.3,0.8,0.8,1.6,1.6,1.7c0.5,0,0.9-0.2,1.3-0.5c0.9-0.5,1.7-1.1,2.6-1.6c0.4-0.2,0.7-0.5,1.1-0.7 c1.7-1.3,3.7-2.3,5.7-3.1c4.3-1.7,9.1-2.4,13.8-1.7c0.2,0,0.4,0.1,0.7,0c0.7-0.2,0.9-1.2,0.4-1.8c-0.4-0.6-1.2-0.8-1.9-1 c-2.7-0.8-5.4-1.5-8.2-1.8c-0.7-0.1-1.4-0.1-2.1-0.2c-0.3,0-0.6,0-0.8,0c-0.3,0-0.9,0.2-1.2,0.1C13,77,13,77.1,13,76.8 c0-0.4,0.6-0.8,0.9-1c0.5-0.4,0.9-0.8,1.4-1.2c1.1-1,2.3-1.9,3.4-2.9c0.6-0.5,1.1-1,1.7-1.5c0.3-0.3,0.5-0.7,0.9-1 c1.2-1.1,2.7-1.7,3.9-2.8c0.4-0.4,0.8-0.8,1.2-1.2c0.8-0.8,1.7-1.5,2.6-2.2c1-0.8,2.1-1.6,3.1-2.3c0.9-0.6,1.9-1.1,2.6-2 c0.8-1,2.1-1.7,3.1-2.5c1.1-0.9,2.2-1.8,3.3-2.6c3.9-3.1,7.9-6.2,12.3-8.6c5.2-2.7,10.6-4.9,16.3-6.4c5.5-1.4,11.2-1.8,16.8-2.7 c0.2,0,0.3-0.1,0.5-0.1c1.4-0.2,2.3-0.4,2,1.5c-0.8,4.9,2.3,7.5,5.8,9.8c4,2.5,8,5,12.7,5.8c5.2,0.9,10.4,2.7,15.9,0.8 c3-1,6.3-5,6.2-7.6c0-1.7-0.3-3.5-1-5.1c-0.6-1.4-1.5-3-2.8-3.7c-1-0.5-1.9-1.5-2.8-2.2c-1.1-0.8-2.2-1.5-3.3-2.1 c-2.3-1.2-4.8-2.1-7.3-2.8c-3.5-0.9-7.2-1.4-10.8-1.8c-0.9-0.1-1.7-0.2-2.6-0.2c-0.2,0-1.4,0-1.4-0.2c-0.1-0.2,0.3-0.5,0.4-0.6 c0.8-0.9,1.7-1.8,2.5-2.6c1.7-1.7,3.6-3.3,5.5-4.8c2-1.6,4.2-3,6.4-4.1c1.1-0.6,2.3-1.1,3.5-1.5c0.6-0.2,1.2-0.4,1.8-0.6 c0.4-0.2,0.7-0.5,1.1-0.7c1.2-0.6,2.7-0.9,4-1.3c1.4-0.4,2.8-0.8,4.2-1.2c2.8-0.8,5.6-1.5,8.4-2.2c3.4-0.8,6.9-1.6,10.3-2.4 c7.9-1.7,15.9-2.4,24-1.7c4.4,0.4,8.9,0.9,13.2,2.1c1.3,0.4,2.5,0.8,3.9,1.1c0.7,0.1,1.4,0.5,2,0.9c0.9,0.5,1.7,0.9,2.6,1.4 c0.3,0.2,0.7,0.3,0.9,0.1c0.1-0.1,0.1-0.3,0.1-0.4c0-0.9-0.4-1.8-1-2.5c-0.5-0.6-1.2-1.4-1.9-1.8c-0.9-0.6-2.2-0.9-3.3-1.3 c-1.1-0.4-2.2-0.7-3.3-1c-2.8-0.8-5.6-1.4-8.5-1.9C173.1,0.9,171.6,0.6,170.2,0.5z M106.8,36c5,0.8,11.2,2,16.2,6.2 c1.1,0.9,2.8,1.6,2.3,3.4c-0.4,1.7-2.1,1.8-3.5,2.3c-5,1.5-9.9,0-14.5-1.2c-4.9-1.2-9.7-3.3-13.5-7c-0.6-0.6-1.2-1.3-1.5-2.1 c-0.1-0.3-0.1-0.7-0.2-1c-0.1-0.3-0.3-0.6,0-0.9c0.2-0.2,0.5-0.3,0.9-0.3c2.4-0.4,4.9-0.6,7.4-0.5c0.9,0,1.8,0.4,2.7,0.5 C104.5,35.6,105.7,35.8,106.8,36z" />
+                                        </svg>
+                                    </figure>
+                                </div>
+
+                                <!-- Content -->
+                                <div
+                                    class="w-2/3 sm:w-2/5 pr-4 pl-4 mt-n6 items-end relative">
+                                    <!-- SVG decoration -->
+                                    <figure
+                                        class="mt-n7 me-n7 absolute top-0 end-0">
+                                        <svg width="192px" height="190px">
+                                            <path stroke="#F99D2B" fill="none"
+                                                stroke-width="10"
+                                                d="M9.1,82.6C15.5,36,58.7,2.7,105.5,8.3c47.3,5.7,81.4,49.3,75.7,96.6c-5.8,47.2-49.4,81.4-96.6,75.7" />
+                                        </svg>
+                                    </figure>
+                                    <div
+                                        class="p-6 relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 flex-auto p-6 shadow rounded-3 inline-block relative mt-n2">
+                                        <!-- Info -->
+                                        <h6 class="mb-2">Congratulations <span
+                                                class="ms-1"><i
+                                                    class="fas fa-check-circle text-green-500"></i></span></h6>
+                                        <p class="mb-0 text-xs">Your admission
+                                            is successfully confirmed.</p>
+                                        <!-- Icon -->
+                                        <div
+                                            class="icon-lg bg-blue-600 rounded-full absolute top-100 start-100 translate-middle">
+                                            <i
+                                                class="bi bi-shield-check text-white"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- Row END -->
+                        </div>
+
+                        <div class="lg:w-1/2 pr-4 pl-4 mt-5 lg:mt-0">
+                            <!-- Title -->
+                            <h2 class="mb-3">Welcome to FPT Training System</h2>
+                            <p class="mb-3 lg:mb-6">Two before narrow not relied
+                                on how except moment
+                                myself Dejection assurance Mrs led certainly So
+                                gate at no only none
+                                open Betrayed.</p>
+                            <!-- Content -->
+                            <div class="flex flex-wrap  g-4">
+                                <!-- Item -->
+                                <div class="w-1/2">
+                                    <div class="sm:flex items-center">
+                                        <div
+                                            class="icon-md fs-5 text-white bg-yellow-500 rounded">
+                                            <i class="fas fa-user-graduate"></i>
+                                        </div>
+                                        <div class="ms-0 sm:ms-4 mt-2 sm:mt-0">
+                                            <h6 class="mb-0">Undergraduate</h6>
+                                            <div class="text-xs"><i
+                                                    class="bi bi-stopwatch me-2"></i>Onsite</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Item -->
+                                <div class="w-1/2">
+                                    <div class="sm:flex items-center">
+                                        <div
+                                            class="icon-md fs-5 text-white bg-teal-500 rounded">
+                                            <i
+                                                class="fas fa-graduation-cap"></i>
+                                        </div>
+                                        <div class="ms-0 sm:ms-4 mt-2 sm:mt-0">
+                                            <h6 class="mb-0">Graduate</h6>
+                                            <div class="text-xs"><i
+                                                    class="bi bi-stopwatch me-2"></i>Online
+                                                +
+                                                Onsite</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Item -->
+                                <div class="w-1/2">
+                                    <div class="sm:flex lg:mb-0 items-center">
+                                        <div
+                                            class="icon-md fs-5 text-white bg-red-600 rounded">
+                                            <i class="bi bi-award"></i>
+                                        </div>
+                                        <div class="ms-0 sm:ms-4 mt-2 sm:mt-0">
+                                            <h6 class="mb-0">Post Graduate</h6>
+                                            <div class="text-xs"><i
+                                                    class="bi bi-stopwatch me-2"></i>Online
+                                                +
+                                                Onsite</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Item -->
+                                <div class="w-1/2">
+                                    <div class="sm:flex lg:mb-0 items-center">
+                                        <div
+                                            class="icon-md fs-5 text-white bg-purple rounded">
+                                            <i class="bi bi-laptop"></i>
+                                        </div>
+                                        <div class="ms-0 sm:ms-4 mt-2 sm:mt-0">
+                                            <h6 class="mb-0">Online
+                                                education</h6>
+                                            <div class="text-xs"><i
+                                                    class="bi bi-stopwatch me-2"></i>Coming
+                                                soon...</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- Row END -->
+                            <!-- Button -->
+                            <a href="#"
+                                class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-1 px-3 leading-normal no-underline btn-primary-soft mb-0 mt-3 lg:mt-6">More
+                                about
+                                us</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- =======================
+About END -->
+
+            <!-- =======================
+Listed college START -->
+            <section class="pt-0">
+                <div class="container mx-auto sm:px-4">
+                    <!-- Title -->
+                    <div class="flex flex-wrap  mb-4">
+                        <div class="lg:w-2/3 pr-4 pl-4 mx-auto text-center">
+                            <h2 class="mb-0">Top Course</h2>
+                            <p class="mb-0">Perceived end knowledge certainly
+                                day sweetness why
+                                cordially.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap ">
+                        <!-- Slider START -->
+                        <div
+                            class="tiny-slider arrow-round arrow-dark arrow-hover">
+                            <div class="tiny-slider-inner" data-autoplay="false"
+                                data-arrow="true"
+                                data-edge="2" data-dots="false" data-items="3"
+                                data-items-lg="2"
+                                data-items-sm="1">
+
+                                <!-- Card item START -->
+                                <div
+                                    class="sm:w-1/2 pr-4 pl-4 xl:w-1/3 pr-4 pl-4">
+                                    <div
+                                        class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 shadow h-full">
+                                        <!-- Image -->
+                                        <img
+                                            src="assets/images/courses/4by3/08.jpg"
+                                            class="w-full rounded rounded-t"
+                                            alt="course image">
+                                        <!-- Card body -->
+                                        <div class="flex-auto p-6 pb-0">
+                                            <!-- Badge and favorite -->
+                                            <div
+                                                class="flex justify-between mb-2">
+                                                <a href="#"
+                                                    class="inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded bg-purple bg-opacity-10 text-purple">All
+                                                    level</a>
+                                                <a href="#"
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="far fa-heart"></i></a>
+                                            </div>
+                                            <!-- Title -->
+                                            <h5 class="mb-3"><a href="#">Sketch
+                                                    from A to Z: for app
+                                                    designer</a></h5>
+                                            <p
+                                                class="mb-2 text-truncate-2">Proposal
+                                                indulged no do sociable he
+                                                throwing settling.</p>
+                                            <!-- Rating star -->
+                                            <ul class="list-inline mb-0">
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="far fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item ms-2 h6 fw-light mb-0">4.0/5.0</li>
+                                            </ul>
+                                        </div>
+                                        <!-- Card footer -->
+                                        <div
+                                            class="py-3 px-6 bg-gray-200 border-t-1 border-gray-300 pt-0 pb-3">
+                                            <hr>
+                                            <div class="flex justify-between">
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="far fa-clock text-red-600 me-2"></i>12h
+                                                    56m</span>
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="fas fa-table text-orange me-2"></i>15
+                                                    lectures</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card item END -->
+
+                                <!-- Card item START -->
+                                <div
+                                    class="sm:w-1/2 pr-4 pl-4 xl:w-1/3 pr-4 pl-4">
+                                    <div
+                                        class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 shadow h-full">
+                                        <!-- Image -->
+                                        <img
+                                            src="assets/images/courses/4by3/02.jpg"
+                                            class="w-full rounded rounded-t"
+                                            alt="course image">
+                                        <div class="flex-auto p-6 pb-0">
+                                            <!-- Badge and favorite -->
+                                            <div
+                                                class="flex justify-between mb-2">
+                                                <a href="#"
+                                                    class="inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded bg-green-500 bg-opacity-10 text-green-500">Beginner</a>
+                                                <a href="#"
+                                                    class="text-red-600"><i
+                                                        class="fas fa-heart"></i></a>
+                                            </div>
+                                            <!-- Title -->
+                                            <h5 class="mb-3"><a href="#">Graphic
+                                                    Design
+                                                    Masterclass</a></h5>
+                                            <p
+                                                class="mb-2 text-truncate-2">Rooms
+                                                oh fully taken by worse do
+                                                Points afraid but may end Rooms
+                                                Points afraid but may end
+                                                Rooms</p>
+                                            <!-- Rating star -->
+                                            <ul class="list-inline mb-0">
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star-half-alt text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+                                            </ul>
+                                        </div>
+                                        <!-- Card footer -->
+                                        <div
+                                            class="py-3 px-6 bg-gray-200 border-t-1 border-gray-300 pt-0 pb-3">
+                                            <hr>
+                                            <div class="flex justify-between">
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="far fa-clock text-red-600 me-2"></i>9h
+                                                    56m</span>
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="fas fa-table text-orange me-2"></i>65
+                                                    lectures</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card item END -->
+
+                                <!-- Card item START -->
+                                <div
+                                    class="sm:w-1/2 pr-4 pl-4 xl:w-1/3 pr-4 pl-4">
+                                    <div
+                                        class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 shadow h-full">
+                                        <!-- Image -->
+                                        <img
+                                            src="assets/images/courses/4by3/03.jpg"
+                                            class="w-full rounded rounded-t"
+                                            alt="course image">
+                                        <div class="flex-auto p-6 pb-0">
+                                            <!-- Badge and favorite -->
+                                            <div
+                                                class="flex justify-between mb-2">
+                                                <a href="#"
+                                                    class="inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded bg-green-500 bg-opacity-10 text-green-500">Beginner</a>
+                                                <a href="#"
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="far fa-heart"></i></a>
+                                            </div>
+                                            <!-- Title -->
+                                            <h5 class="mb-3"><a href="#">Create
+                                                    a Design System in
+                                                    Figma</a></h5>
+                                            <p
+                                                class="mb-2 text-truncate-2">Rooms
+                                                oh fully taken by worse do.
+                                                Points afraid but may end afraid
+                                                but may end.</p>
+                                            <!-- Rating star -->
+                                            <ul class="list-inline mb-0">
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star-half-alt text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+                                            </ul>
+                                        </div>
+                                        <!-- Card footer -->
+                                        <div
+                                            class="py-3 px-6 bg-gray-200 border-t-1 border-gray-300 pt-0 pb-3">
+                                            <hr>
+                                            <div class="flex justify-between">
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="far fa-clock text-red-600 me-2"></i>5h
+                                                    56m</span>
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="fas fa-table text-orange me-2"></i>32
+                                                    lectures</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card item END -->
+
+                                <!-- Card item START -->
+                                <div
+                                    class="sm:w-1/2 pr-4 pl-4 xl:w-1/3 pr-4 pl-4">
+                                    <div
+                                        class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 shadow h-full">
+                                        <!-- Image -->
+                                        <img
+                                            src="assets/images/courses/4by3/07.jpg"
+                                            class="w-full rounded rounded-t"
+                                            alt="course image">
+                                        <div class="flex-auto p-6 pb-0">
+                                            <!-- Badge and favorite -->
+                                            <div
+                                                class="flex justify-between mb-2">
+                                                <a href="#"
+                                                    class="inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded bg-green-500 bg-opacity-10 text-green-500">Beginner</a>
+                                                <a href="#"
+                                                    class="text-red-600"><i
+                                                        class="fas fa-heart"></i></a>
+                                            </div>
+                                            <!-- Title -->
+                                            <h5 class="mb-3"><a href="#">Deep
+                                                    Learning with React-Native
+                                                </a></h5>
+                                            <p class="mb-2 text-truncate-2">Far
+                                                advanced settling say finished
+                                                raillery. Offered chiefly
+                                                farther.</p>
+                                            <!-- Rating star -->
+                                            <ul class="list-inline mb-0">
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="far fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item ms-2 h6 fw-light mb-0">4.0/5.0</li>
+                                            </ul>
+                                        </div>
+                                        <!-- Card footer -->
+                                        <div
+                                            class="py-3 px-6 bg-gray-200 border-t-1 border-gray-300 pt-0 pb-3">
+                                            <hr>
+                                            <div class="flex justify-between">
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="far fa-clock text-red-600 me-2"></i>18h
+                                                    56m</span>
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="fas fa-table text-orange me-2"></i>99
+                                                    lectures</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card item END -->
+
+                                <!-- Card item START -->
+                                <div
+                                    class="sm:w-1/2 pr-4 pl-4 xl:w-1/3 pr-4 pl-4">
+                                    <div
+                                        class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 shadow h-full">
+                                        <!-- Image -->
+                                        <img
+                                            src="assets/images/courses/4by3/11.jpg"
+                                            class="w-full rounded rounded-t"
+                                            alt="course image">
+                                        <div class="flex-auto p-6 pb-0">
+                                            <!-- Badge and favorite -->
+                                            <div
+                                                class="flex justify-between mb-2">
+                                                <a href="#"
+                                                    class="inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded bg-purple bg-opacity-10 text-purple">All
+                                                    level</a>
+                                                <a href="#"
+                                                    class="text-red-600"><i
+                                                        class="fas fa-heart"></i></a>
+                                            </div>
+                                            <!-- Title -->
+                                            <h5 class="mb-3"><a href="#">Build
+                                                    Responsive Websites with
+                                                    HTML</a></h5>
+                                            <p class="mb-2 text-truncate-2">Far
+                                                advanced settling say finished
+                                                raillery. Offered chiefly
+                                                farther.</p>
+                                            <!-- Rating star -->
+                                            <ul class="list-inline mb-0">
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="far fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item ms-2 h6 fw-light mb-0">4.0/5.0</li>
+                                            </ul>
+                                        </div>
+                                        <!-- Card footer -->
+                                        <div
+                                            class="py-3 px-6 bg-gray-200 border-t-1 border-gray-300 pt-0 pb-3">
+                                            <hr>
+                                            <div class="flex justify-between">
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="far fa-clock text-red-600 me-2"></i>15h
+                                                    30m</span>
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="fas fa-table text-orange me-2"></i>68
+                                                    lectures</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card item END -->
+
+                                <!-- Card item START -->
+                                <div
+                                    class="sm:w-1/2 pr-4 pl-4 xl:w-1/3 pr-4 pl-4">
+                                    <div
+                                        class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 shadow h-full">
+                                        <!-- Image -->
+                                        <img
+                                            src="assets/images/courses/4by3/12.jpg"
+                                            class="w-full rounded rounded-t"
+                                            alt="course image">
+                                        <div class="flex-auto p-6 pb-0">
+                                            <!-- Badge and favorite -->
+                                            <div
+                                                class="flex justify-between mb-2">
+                                                <a href="#"
+                                                    class="inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded bg-green-500 bg-opacity-10 text-green-500">Beginner</a>
+                                                <a href="#"
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="far fa-heart"></i></a>
+                                            </div>
+                                            <!-- Title -->
+                                            <h5 class="mb-3"><a href="#">Build
+                                                    Websites with CSS</a></h5>
+                                            <p class="text-truncate-2 mb-2">Far
+                                                advanced settling say finished
+                                                raillery. Offered chiefly
+                                                farther.</p>
+                                            <!-- Rating star -->
+                                            <ul class="list-inline mb-0">
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star-half-alt text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+                                            </ul>
+                                        </div>
+                                        <!-- Card footer -->
+                                        <div
+                                            class="py-3 px-6 bg-gray-200 border-t-1 border-gray-300 pt-0 pb-3">
+                                            <hr>
+                                            <div class="flex justify-between">
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="far fa-clock text-red-600 me-2"></i>36h
+                                                    30m</span>
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="fas fa-table text-orange me-2"></i>72
+                                                    lectures</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card item END -->
+
+                                <!-- Card item START -->
+                                <div
+                                    class="sm:w-1/2 pr-4 pl-4 xl:w-1/3 pr-4 pl-4">
+                                    <div
+                                        class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 shadow h-full">
+                                        <!-- Image -->
+                                        <img
+                                            src="assets/images/courses/4by3/05.jpg"
+                                            class="w-full rounded rounded-t"
+                                            alt="course image">
+                                        <div class="flex-auto p-6 pb-0">
+                                            <!-- Badge and favorite -->
+                                            <div
+                                                class="flex justify-between mb-2">
+                                                <a href="#"
+                                                    class="inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded bg-green-500 bg-opacity-10 text-green-500">Beginner</a>
+                                                <a href="#"
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="far fa-heart"></i></a>
+                                            </div>
+                                            <!-- Title -->
+                                            <h5 class="mb-3"><a href="#">The
+                                                    Complete Web Development in
+                                                    python</a></h5>
+                                            <p
+                                                class="text-truncate-2 mb-2">Mention
+                                                Mr manners opinion if garrets
+                                                enabled.</p>
+                                            <!-- Rating star -->
+                                            <ul class="list-inline mb-0">
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star-half-alt text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+                                            </ul>
+                                        </div>
+                                        <!-- Card footer -->
+                                        <div
+                                            class="py-3 px-6 bg-gray-200 border-t-1 border-gray-300 pt-0 pb-3">
+                                            <hr>
+                                            <div class="flex justify-between">
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="far fa-clock text-red-600 me-2"></i>10h
+                                                    00m</span>
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="fas fa-table text-orange me-2"></i>26
+                                                    lectures</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card item END -->
+
+                                <!-- Card item START -->
+                                <div
+                                    class="sm:w-1/2 pr-4 pl-4 xl:w-1/3 pr-4 pl-4">
+                                    <div
+                                        class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 shadow h-full">
+                                        <!-- Image -->
+                                        <img
+                                            src="assets/images/courses/4by3/06.jpg"
+                                            class="w-full rounded rounded-t"
+                                            alt="course image">
+                                        <div class="flex-auto p-6 pb-0">
+                                            <!-- Badge and favorite -->
+                                            <div
+                                                class="flex justify-between mb-2">
+                                                <a href="#"
+                                                    class="inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded bg-teal-500 bg-opacity-10 text-teal-500">Intermediate</a>
+                                                <a href="#"
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="far fa-heart"></i></a>
+                                            </div>
+                                            <!-- Title -->
+                                            <h5 class="mb-3"><a href="#">Angular
+                                                    – The Complete
+                                                    Guider</a></h5>
+                                            <p
+                                                class="text-truncate-2 mb-2">Rooms
+                                                oh fully taken by worse do.
+                                                Points afraid but may end.</p>
+                                            <!-- Rating star -->
+                                            <ul class="list-inline mb-0">
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star-half-alt text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+                                            </ul>
+                                        </div>
+                                        <!-- Card footer -->
+                                        <div
+                                            class="py-3 px-6 bg-gray-200 border-t-1 border-gray-300 pt-0 pb-3">
+                                            <hr>
+                                            <div class="flex justify-between">
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="far fa-clock text-red-600 me-2"></i>9h
+                                                    32m</span>
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="fas fa-table text-orange me-2"></i>42
+                                                    lectures</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card item END -->
+
+                                <!-- Card item START -->
+                                <div
+                                    class="sm:w-1/2 pr-4 pl-4 xl:w-1/3 pr-4 pl-4">
+                                    <div
+                                        class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 shadow h-full">
+                                        <!-- Image -->
+                                        <img
+                                            src="assets/images/courses/4by3/10.jpg"
+                                            class="w-full rounded rounded-t"
+                                            alt="course image">
+                                        <div class="flex-auto p-6 pb-0">
+                                            <!-- Badge and favorite -->
+                                            <div
+                                                class="flex justify-between mb-2">
+                                                <a href="#"
+                                                    class="inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded bg-teal-500 bg-opacity-10 text-teal-500">Intermediate</a>
+                                                <a href="#"
+                                                    class="text-red-600"><i
+                                                        class="fas fa-heart"></i></a>
+                                            </div>
+                                            <!-- Title -->
+                                            <h5 class="mb-3"><a
+                                                    href="#">Bootstrap 5 From
+                                                    Scratch</a></h5>
+                                            <p class="text-truncate-2 mb-2">Far
+                                                advanced settling say finished
+                                                raillery. Offered chiefly
+                                                farther.</p>
+                                            <!-- Rating star -->
+                                            <ul class="list-inline mb-0">
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item me-0 text-xs"><i
+                                                        class="fas fa-star-half-alt text-yellow-500"></i></li>
+                                                <li
+                                                    class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+                                            </ul>
+                                        </div>
+                                        <!-- Card footer -->
+                                        <div
+                                            class="py-3 px-6 bg-gray-200 border-t-1 border-gray-300 pt-0 pb-3">
+                                            <hr>
+                                            <div class="flex justify-between">
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="far fa-clock text-red-600 me-2"></i>25h
+                                                    56m</span>
+                                                <span
+                                                    class="h6 fw-light mb-0"><i
+                                                        class="fas fa-table text-orange me-2"></i>38
+                                                    lectures</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Card item END -->
+
+                            </div>
+                        </div>
+                        <!-- Slider END -->
+                    </div>
+                </div>
+            </section>
+            <!-- =======================
+Listed college END -->
+
+            <!-- =======================
+Counter START -->
+            <section class="py-0 lg:py-12">
+                <div class="container mx-auto sm:px-4">
+                    <div class="flex flex-wrap ">
+                        <div class="w-full relative z-index-1">
+                            <!-- Image -->
+                            <div
+                                class="hidden lg:block absolute bottom-0 start-0 ms-5">
+                                <img src="assets/images/element/02.png"
+                                    alt="Image">
+                            </div>
+                            <div
+                                class="bg-yellow-500 p-6 sm:p-12 rounded relative z-index-n1 overflow-hidden">
+                                <!-- SVG decoration -->
+                                <figure
+                                    class="absolute top-50 end-0 translate-middle-y me-n7">
+                                    <svg
+                                        class="fill-orange rotate-193 opacity-2"
+                                        width="676px"
+                                        height="161.3px" viewBox="0 0 676 161.3"
+                                        style="enable-background:new 0 0 676 161.3;"
+                                        xml:space="preserve">
+                                        <path
+                                            d="M53.6,18.8c28.6,8.8,50.3,27.3,70.9,48c19.9,19.9,39.5,40.8,65.3,53c53.3,24.9,116,12.4,168.2-9.1 c58.4-23.9,113.2-59.8,176.2-70.3c30.9-5.1,64.1-2.6,90.9,14.7c22.4,14.4,34.4,36.9,39.5,62.4c2.9,14.5,3.9,29.2,4.6,43.9h6.8 c-0.2-4.2-0.5-8.3-0.8-12.5c-1.7-24.1-4.9-49.1-17.6-70.3c-14.5-23.9-40-39.2-67-44.8c-32.9-6.8-67.2-0.3-98.5,10.2 c-30.3,10-59,24.2-87.7,38.1c-54.8,26.4-115.5,53.1-177.9,42c-14.5-2.6-28.7-7.4-41.7-14.7c-12.8-7.3-23.9-16.7-34.6-26.7 c-20.7-19.6-39.4-42-64.1-56.8c-25.6-15.4-56.4-22.2-86-19H0v6.9C17.9,11.8,36.3,13.5,53.6,18.8z" />
+                                    </svg>
+                                </figure>
+
+                                <div
+                                    class="flex flex-wrap  items-end justify-end relative">
+                                    <div class="lg:w-4/5 pr-4 pl-4">
+                                        <div
+                                            class="flex flex-wrap  g-3 flex items-center justify-center">
+
+                                            <!-- Counter item -->
+                                            <div
+                                                class="sm:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4 text-center">
+                                                <div
+                                                    class="flex justify-center">
+                                                    <h4
+                                                        class="purecounter display-6 text-white fw-bold mb-0"
+                                                        data-purecounter-start="0"
+                                                        data-purecounter-end="89"
+                                                        data-purecounter-delay="200">0</h4>
+                                                </div>
+                                                <h6
+                                                    class="text-gray-900 mb-0 fw-bold">Total
+                                                    Instructors</h6>
+                                            </div>
+
+                                            <!-- Counter item -->
+                                            <div
+                                                class="sm:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4 text-center">
+                                                <div
+                                                    class="flex justify-center">
+                                                    <h4
+                                                        class="purecounter display-6 text-white fw-bold mb-0"
+                                                        data-purecounter-start="0"
+                                                        data-purecounter-end="12"
+                                                        data-purecounter-delay="200">0</h4>
+                                                </div>
+                                                <h6
+                                                    class="text-gray-900 mb-0 fw-bold">Total
+                                                    Campuses</h6>
+                                            </div>
+
+                                            <!-- Counter item -->
+                                            <div
+                                                class="sm:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4 text-center">
+                                                <div
+                                                    class="flex justify-center">
+                                                    <h4
+                                                        class="purecounter display-6 text-white fw-bold mb-0"
+                                                        data-purecounter-start="0"
+                                                        data-purecounter-end="180"
+                                                        data-purecounter-delay="200">0</h4>
+                                                    <span
+                                                        class="display-6 text-white mb-0">K</span>
+                                                </div>
+                                                <h6
+                                                    class="text-gray-900 mb-0 fw-bold">Students
+                                                    till date</h6>
+                                            </div>
+
+                                            <!-- Counter item -->
+                                            <div
+                                                class="sm:w-1/2 pr-4 pl-4 lg:w-1/4 pr-4 pl-4 text-center">
+                                                <div
+                                                    class="flex justify-center">
+                                                    <h4
+                                                        class="purecounter display-6 text-white fw-bold mb-0"
+                                                        data-purecounter-start="0"
+                                                        data-purecounter-end="23"
+                                                        data-purecounter-delay="200">0</h4>
+                                                    <span
+                                                        class="display-6 text-white mb-0">+</span>
+                                                </div>
+                                                <h6
+                                                    class="text-gray-900 mb-0 fw-bold">Types
+                                                    of Courses</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- Row END -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- =======================
+Counter END -->
+
+            <!-- =======================
+Latest news START -->
+            <section>
+                <div class="container mx-auto sm:px-4">
+                    <!-- Title -->
+                    <div class="flex flex-wrap  mb-4">
+                        <div class="md:flex md:justify-between items-center">
+                            <h2 class="mb-2 md:mb-0">Eduport Latest News</h2>
+                            <div>
+                                <span class="me-2">Want to read more?</span>
+                                <a href="#"
+                                    class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded  no-underline py-1 px-2 leading-tight text-xs  btn-primary-soft mb-0">Go
+                                    here<i
+                                        class="fas fa-angle-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap  g-4">
+                        <div class="md:w-1/2 pr-4 pl-4 lg:w-1/3 pr-4 pl-4">
+                            <!-- Card item START -->
+                            <div
+                                class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 bg-transparent">
+                                <div class="overflow-hidden rounded-3">
+                                    <img src="assets/images/event/02.jpg"
+                                        class="w-full rounded"
+                                        alt="Card image">
+                                    <!-- Overlay -->
+                                    <div
+                                        class="bg-overlay bg-gray-900 opacity-4"></div>
+                                    <div
+                                        class="absolute inset-y-0 inset-x-0 p-6 flex items-start flex-col p-6">
+                                        <!-- badge -->
+                                        <a href="#"
+                                            class="inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded text-bg-danger">Student
+                                            life</a>
+                                    </div>
+                                </div>
+                                <!-- Card body -->
+                                <div class="flex-auto p-6 px-3">
+                                    <!-- Title -->
+                                    <h5 class="mb-3"><a href="#">Student Loan
+                                            Survey: Many Owe
+                                            $50K-plus</a></h5>
+                                    <p class="text-truncate-2">Affronting
+                                        imprudence do he he everything.
+                                        Offered chiefly farther of my no colonel
+                                        shyness. Such on help ye some
+                                        door if in. Laughter proposal laughing
+                                        any son law consider. Needed
+                                        except up piqued an. </p>
+                                    <!-- Info -->
+                                    <div class="flex justify-between">
+                                        <h6 class="mb-0"><a href="#">Frances
+                                                Guerrero</a></h6>
+                                        <span class="text-xs">30M Ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card item END -->
+                        </div>
+
+                        <div class="md:w-1/2 pr-4 pl-4 lg:w-2/3 pr-4 pl-4">
+                            <div class="flex flex-wrap  g-4">
+                                <div class="lg:w-3/5 pr-4 pl-4">
+                                    <!-- Card item START -->
+                                    <div
+                                        class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 bg-gray-100 p-6 mb-4">
+                                        <div class="flex-auto p-6">
+                                            <!-- Badge -->
+                                            <a href="#"
+                                                class="inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded text-bg-success mb-2">Research</a>
+                                            <!-- Title -->
+                                            <h5 class="mb-3"><a href="#">How to
+                                                    make a college
+                                                    list</a></h5>
+                                            <p>Prospective students should start
+                                                broadly and then narrow their
+                                                list down to colleges that best
+                                                fit their needs, experts say.Yet
+                                                remarkably appearance get him
+                                                his projection. </p>
+                                            <!-- Info -->
+                                            <div class="flex justify-between">
+                                                <h6 class="mb-0"><a
+                                                        href="#">Louis
+                                                        Crawford</a></h6>
+                                                <span class="text-xs">12H
+                                                    Ago</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card item END -->
+
+                                    <!-- Card item START -->
+                                    <div
+                                        class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 bg-transparent">
+                                        <div class="overflow-hidden rounded-3">
+                                            <img
+                                                src="assets/images/event/01.jpg"
+                                                class="card-imgp"
+                                                alt="Card image">
+                                            <!-- Overlay -->
+                                            <div
+                                                class="bg-overlay bg-gray-900 opacity-4"></div>
+                                            <div
+                                                class="absolute inset-y-0 inset-x-0 p-6 flex items-start flex-col p-6">
+                                                <!-- badge -->
+                                                <a href="#"
+                                                    class="inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded text-bg-info">Student
+                                                    story</a>
+                                            </div>
+                                        </div>
+                                        <!-- Card body -->
+                                        <div class="flex-auto p-6 px-3">
+                                            <!-- Title -->
+                                            <h5 class="mb-3"><a href="#">Campus
+                                                    Support for First-Year
+                                                    Students</a></h5>
+                                            <p
+                                                class="text-truncate-2">Prospective
+                                                students should start broadly
+                                                and then narrow their list </p>
+
+                                            <!-- Info -->
+                                            <div class="flex justify-between">
+                                                <h6 class="mb-0"><a
+                                                        href="#">Lori
+                                                        Stevens</a></h6>
+                                                <span class="text-xs">3M
+                                                    Ago</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card item END -->
+                                </div>
+
+                                <div class="lg:w-2/5 pr-4 pl-4">
+                                    <!-- Card item START -->
+                                    <div
+                                        class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 bg-transparent">
+                                        <div class="overflow-hidden rounded-3">
+                                            <img
+                                                src="assets/images/event/03.jpg"
+                                                class="w-full rounded rounded-t"
+                                                alt="course image">
+                                            <!-- Overlay -->
+                                            <div
+                                                class="bg-overlay bg-gray-900 opacity-2 rounded-2"></div>
+                                            <div
+                                                class="absolute inset-y-0 inset-x-0 p-6 flex items-start flex-col p-6">
+                                                <!-- badge -->
+                                                <a href="#"
+                                                    class="inline-block p-1 text-center font-semibold text-sm align-baseline leading-none rounded text-bg-purple">Covid-19</a>
+                                            </div>
+                                        </div>
+                                        <!-- Card body -->
+                                        <div class="flex-auto p-6 px-3">
+                                            <!-- Title -->
+                                            <h5 class="mb-3"><a
+                                                    href="#">Covid-19 and the
+                                                    college
+                                                    experienced</a></h5>
+                                            <p>Rooms oh fully taken by worse do.
+                                                Points afraid but may end
+                                                law.Points afraid but may end
+                                                law. </p>
+                                            <!-- Info -->
+                                            <div class="flex justify-between">
+                                                <h6 class="mb-0"><a
+                                                        href="#">Amanda
+                                                        Reed</a></h6>
+                                                <span class="text-xs">July 21,
+                                                    2021</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card item END -->
+                                </div>
+                            </div><!-- Row END -->
+                        </div>
+                    </div><!-- Row END -->
+                </div>
+            </section>
+            <!-- =======================
+Latest news END -->
+
+        </main>
+        <!-- **************** MAIN CONTENT END **************** -->
+
+        <!-- =======================
+Footer START -->
+        <footer class="pt-5 bg-gray-100">
+            <div class="container mx-auto sm:px-4">
+                <!-- Row START -->
+                <div class="flex flex-wrap  g-4">
+
+                    <!-- Widget 1 START -->
+                    <div class="lg:w-1/4 pr-4 pl-4">
+                        <!-- logo -->
+                        <a class="me-0" href="index.html">
+                            <img class="light-mode-item h-40px"
+                                src="assets/images/FPT.png"
+                                alt="logo">
+                        </a>
+                        <p class="my-3">Eduport education theme, built
+                            specifically for the
+                            education centers which is dedicated to teaching and
+                            involve learners.
+                        </p>
+                        <!-- Social media icon -->
+                        <ul class="list-inline mb-0 mt-3">
+                            <li class="list-inline-item"> <a
+                                    class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded  no-underline btn-white py-1 px-2 leading-tight text-xs  shadow px-2 text-facebook"
+                                    href="#"><i
+                                        class="bi bi-facebook"></i></a> </li>
+                            <li class="list-inline-item"> <a
+                                    class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded  no-underline btn-white py-1 px-2 leading-tight text-xs  shadow px-2 text-instagram"
+                                    href="#"><i
+                                        class="bi bi-instagram"></i></a> </li>
+                            <li class="list-inline-item"> <a
+                                    class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded  no-underline btn-white py-1 px-2 leading-tight text-xs  shadow px-2 text-twitter"
+                                    href="#"><i
+                                        class="bi bi-twitter-x"></i></a> </li>
+                            <li class="list-inline-item"> <a
+                                    class="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded  no-underline btn-white py-1 px-2 leading-tight text-xs  shadow px-2 text-linkedin"
+                                    href="#"><i
+                                        class="bi bi-linkedin"></i></a> </li>
+                        </ul>
+                    </div>
+                    <!-- Widget 1 END -->
+
+                    <!-- Widget 2 START -->
+                    <div class="lg:w-1/2 pr-4 pl-4">
+                        <div class="flex flex-wrap  g-4">
+                            <!-- Link block -->
+                            <div class="w-1/2 md:w-1/3 pr-4 pl-4">
+                                <h5 class="mb-2 md:mb-6">Company</h5>
+                                <ul
+                                    class="flex flex-wrap list-none pl-0 mb-0 flex-col">
+                                    <li class><a
+                                            class="inline-block py-2 px-4 no-underline"
+                                            href="#">About us</a></li>
+                                    <li class><a
+                                            class="inline-block py-2 px-4 no-underline"
+                                            href="#">Contact us</a></li>
+                                    <li class><a
+                                            class="inline-block py-2 px-4 no-underline"
+                                            href="#">News and
+                                            Blogs</a></li>
+                                    <li class><a
+                                            class="inline-block py-2 px-4 no-underline"
+                                            href="#">Library</a></li>
+                                    <li class><a
+                                            class="inline-block py-2 px-4 no-underline"
+                                            href="#">Career</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Link block -->
+                            <div class="w-1/2 md:w-1/3 pr-4 pl-4">
+                                <h5 class="mb-2 md:mb-6">Community</h5>
+                                <ul
+                                    class="flex flex-wrap list-none pl-0 mb-0 flex-col">
+                                    <li class><a
+                                            class="inline-block py-2 px-4 no-underline"
+                                            href="#">Documentation</a></li>
+                                    <li class><a
+                                            class="inline-block py-2 px-4 no-underline"
+                                            href="#">Faq</a></li>
+                                    <li class><a
+                                            class="inline-block py-2 px-4 no-underline"
+                                            href="#">Forum</a></li>
+                                    <li class><a
+                                            class="inline-block py-2 px-4 no-underline"
+                                            href="#">Sitemap</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Link block -->
+                            <div class="w-1/2 md:w-1/3 pr-4 pl-4">
+                                <h5 class="mb-2 md:mb-6">Teaching</h5>
+                                <ul
+                                    class="flex flex-wrap list-none pl-0 mb-0 flex-col">
+                                    <li class><a
+                                            class="inline-block py-2 px-4 no-underline"
+                                            href="#">Become a
+                                            teacher</a></li>
+                                    <li class><a
+                                            class="inline-block py-2 px-4 no-underline"
+                                            href="#">How to guide</a></li>
+                                    <li class><a
+                                            class="inline-block py-2 px-4 no-underline"
+                                            href="#">Terms &amp;
+                                            Conditions</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Widget 2 END -->
+
+                    <!-- Widget 3 START -->
+                    <div class="lg:w-1/4 pr-4 pl-4">
+                        <h5 class="mb-2 md:mb-6">Contact</h5>
+                        <!-- Time -->
+                        <p class="mb-2">
+                            Toll free:<span class="h6 fw-light ms-2">+1234 568
+                                963</span>
+                            <span class="block text-xs">(9:AM to 8:PM
+                                IST)</span>
+                        </p>
+
+                        <p class="mb-0">Email:<span
+                                class="h6 fw-light ms-2">example@gmail.com</span></p>
+
+                        <div class="flex flex-wrap  g-2 mt-2">
+                            <!-- Google play store button -->
+                            <div
+                                class="w-1/2 sm:w-1/3 pr-4 pl-4 md:w-1/4 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
+                                <a href="#"> <img
+                                        src="assets/images/client/google-play.svg"
+                                        alt> </a>
+                            </div>
+                            <!-- App store button -->
+                            <div
+                                class="w-1/2 sm:w-1/3 pr-4 pl-4 md:w-1/4 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
+                                <a href="#"> <img
+                                        src="assets/images/client/app-store.svg"
+                                        alt="app-store"> </a>
+                            </div>
+                        </div> <!-- Row END -->
+                    </div>
+                    <!-- Widget 3 END -->
+                </div><!-- Row END -->
+
+                <!-- Divider -->
+                <hr class="mt-4 mb-0">
+
+                <!-- Bottom footer -->
+                <div class="py-3">
+                    <div class="container mx-auto sm:px-4 px-0">
+                        <div
+                            class="lg:flex justify-between items-center py-3 text-center md:text-left">
+                            <!-- copyright text -->
+                            <div class="text-body text-primary-hover">
+                                Copyrights ©2023 Eduport.
+                                Build by <a href="https://www.webestica.com/"
+                                    target="_blank"
+                                    class="text-body">Webestica</a></div>
+                            <!-- copyright links-->
+                            <div class="justify-center mt-3 lg:mt-0">
+                                <ul
+                                    class="flex flex-wrap list-none pl-0 mb-0 list-inline justify-center mb-0">
+                                    <li class="list-inline-item">
+                                        <!-- Language selector -->
+                                        <div
+                                            class="relative mt-0 text-center text-sm-end">
+                                            <a
+                                                class=" inline-block w-0 h-0 ml-1 align border-b-0 border-t-1 border-r-1 border-l-1 inline-block py-2 px-4 no-underline"
+                                                href="#" role="button"
+                                                id="languageSwitcher"
+                                                data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <i
+                                                    class="fas fa-globe me-2"></i>Language
+                                            </a>
+                                            <ul
+                                                class=" absolute left-0 z-50 float-left hidden list-reset	 py-2 mt-1 text-base bg-white border border-gray-300 rounded min-w-auto"
+                                                aria-labelledby="languageSwitcher">
+                                                <li><a
+                                                        class="block w-full py-1 px-6 font-normal text-gray-900 whitespace-no-wrap border-0 me-4"
+                                                        href="#"><img
+                                                            class="fa-fw me-2"
+                                                            src="assets/images/flags/uk.svg"
+                                                            alt>English</a></li>
+                                                <li><a
+                                                        class="block w-full py-1 px-6 font-normal text-gray-900 whitespace-no-wrap border-0 me-4"
+                                                        href="#"><img
+                                                            class="fa-fw me-2"
+                                                            src="assets/images/flags/gr.svg"
+                                                            alt>German </a></li>
+                                                <li><a
+                                                        class="block w-full py-1 px-6 font-normal text-gray-900 whitespace-no-wrap border-0 me-4"
+                                                        href="#"><img
+                                                            class="fa-fw me-2"
+                                                            src="assets/images/flags/sp.svg"
+                                                            alt>French</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="list-inline-item"><a
+                                            class="inline-block py-2 px-4 no-underline"
+                                            href="#">Terms of
+                                            use</a></li>
+                                    <li class="list-inline-item"><a
+                                            class="inline-block py-2 px-4 no-underline pe-0"
+                                            href="#">Privacy
+                                            policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- =======================
+Footer END -->
+
+        <!-- Back to top -->
+        <div class="back-top"><i
+                class="bi bi-arrow-up-short absolute top-50 start-50 translate-middle"></i></div>
+
+        <!-- Bootstrap JS -->
+        <script
+            src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Vendors -->
+        <script
+            src="./assets/vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
+        <script src="./assets/vendor/tiny-slider/tiny-slider.js"></script>
+
+        <!-- Template Functions -->
+        <script src="./assets/js/functions.js"></script>
+
+    </body>
+</html>

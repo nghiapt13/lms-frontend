@@ -139,8 +139,8 @@
   color-scheme: dark;
   --bs-body-color: #dee2e6;
   --bs-body-color-rgb: 222, 226, 230;
-  --bs-body-bg: #212529;
-  --bs-body-bg-rgb: 33, 37, 41;
+  --bs-body-bg: #121212;
+  --bs-body-bg-rgb: 18, 18, 18;
   --bs-emphasis-color: #fff;
   --bs-emphasis-color-rgb: 255, 255, 255;
   --bs-secondary-color: #dde0e3;
@@ -22492,8 +22492,8 @@ fieldset:disabled .btn {
   }
 
   .navbar-expand-xl .navbar-brand .navbar-brand-item {
-    height: 55px;
-    margin-left: 4rem;
+    height: 60px;
+    margin-left: 3rem;
     display: block;
     width: auto;
 
