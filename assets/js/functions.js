@@ -368,7 +368,7 @@ var e = {
         var sliderArrow = slider1.getAttribute("data-arrow") !== "false"; //option: true or false
         var sliderDots = slider1.getAttribute("data-dots") !== "false"; //option: true or false
 
-        var sliderAutoPlay = slider1.getAttribute("data-autoplay") !== "false"; //option: true or false
+        var sliderAutoPlay = slider1.getAttribute("data-autoplay") !== "true"; //option: true or false
         var sliderAutoPlayTime = slider1.getAttribute("data-autoplaytime")
           ? slider1.getAttribute("data-autoplaytime")
           : 4000;
@@ -396,6 +396,7 @@ var e = {
 
         var tnsSlider = tns({
           container: slider,
+          
           mode: sliderMode,
           axis: sliderAxis,
           gutter: sliderSpace,
