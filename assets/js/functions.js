@@ -40,7 +40,7 @@ Table Of Content
 !(function () {
   (window.Element.prototype.removeClass = function () {
     let className =
-        arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "",
+      arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "",
       selectors = this;
     if (!(selectors instanceof HTMLElement) && selectors !== null) {
       selectors = document.querySelector(selectors);
@@ -52,7 +52,7 @@ Table Of Content
   }),
     (window.Element.prototype.addClass = function () {
       let className =
-          arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "",
+        arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "",
         selectors = this;
       if (!(selectors instanceof HTMLElement) && selectors !== null) {
         selectors = document.querySelector(selectors);
@@ -64,7 +64,7 @@ Table Of Content
     }),
     (window.Element.prototype.toggleClass = function () {
       let className =
-          arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "",
+        arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "",
         selectors = this;
       if (!(selectors instanceof HTMLElement) && selectors !== null) {
         selectors = document.querySelector(selectors);
@@ -396,7 +396,7 @@ var e = {
 
         var tnsSlider = tns({
           container: slider,
-          
+
           mode: sliderMode,
           axis: sliderAxis,
           gutter: sliderSpace,
@@ -1201,8 +1201,8 @@ var e = {
           item.getAttribute("data-mode") == "multiple"
             ? "multiple"
             : item.getAttribute("data-mode") == "range"
-            ? "range"
-            : "single";
+              ? "range"
+              : "single";
         var enableTime =
           item.getAttribute("data-enableTime") == "true" ? true : false;
         var noCalendar =
@@ -1211,8 +1211,8 @@ var e = {
         var dateFormat = item.getAttribute("data-date-format")
           ? item.getAttribute("data-date-format")
           : item.getAttribute("data-enableTime") == "true"
-          ? "h:i K"
-          : "d M";
+            ? "h:i K"
+            : "d M";
 
         flatpickr(item, {
           mode: mode,
@@ -1295,3 +1295,21 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+// document.getElementById('signin').addEventListener('click', function() {
+//   document.getElementById('loginForm').style.display = 'block';
+// });
+
+function login() {
+  var username = document.getElementById('email').value;
+  var password = document.getElementById('password').value;
+
+  if (username === 'admin' && password === 'admin') {
+    // Lưu trạng thái đăng nhập
+    localStorage.setItem('loggedIn', true);
+    // Chuyển hướng người dùng đến trang index
+    window.location.href = "/index.html";
+  } else {
+    alert('Invalid username or password');
+  }
+}
