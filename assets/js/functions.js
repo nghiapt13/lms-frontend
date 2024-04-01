@@ -1313,3 +1313,7 @@ function login() {
     alert('Invalid username or password');
   }
 }
+
+function log(){
+  document.getElementById('signin').style.display='block';
+}
