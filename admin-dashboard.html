@@ -61,7 +61,7 @@
 
 						<!-- Sidebar menu START -->
 
-						<ul class="navbar-nav flex-column " id="navbar-sidebar">
+						<ul class="navbar-nav flex-column h-100" id="navbar-sidebar">
 
 							<!-- Menu item 1 -->
 							<li class="nav-item"><a href="admin-dashboard.html"
@@ -71,12 +71,17 @@
 							<!-- Title -->
 							<!-- <li class="nav-item ms-2 my-2">Pages</li> -->
 							<li class="nav-item">
-								<a class="nav-link" aria-controls="admincollapsepage" data-bs-toggle="collapse" href="#admincollapsepage" role="button" aria-expanded="false">
+								<a class="nav-link" aria-controls="admincollapsepage"
+									data-bs-toggle="collapse" href="#admincollapsepage" role="button"
+									aria-expanded="false">
 									<i class="bi bi-person-fill-gear fa-fw me-2"></i>Admin
 								</a>
-								<ul data-bs-parent="#navbar-sidebar" class="nav collapse flex-column" id="admincollapsepage">
-									<li class="nav-item"><a href="./add-admin.html" class="nav-link">Add New Admin</a></li>
-									<li class="nav-item"><a href="./add-admin.html" class="nav-link">Admin List</a></li>
+								<ul data-bs-parent="#navbar-sidebar" class="nav collapse flex-column"
+									id="admincollapsepage">
+									<li class="nav-item"><a href="./add-admin.html" class="nav-link">Add
+											New Admin</a></li>
+									<li class="nav-item"><a href="./admin-list.html" class="nav-link">Admin
+											List</a></li>
 								</ul>
 							</li>
 
@@ -102,37 +107,13 @@
 
 							<!-- Menu item 3 -->
 							<li class="nav-item">
-								<a class="nav-link" data-bs-toggle="collapse"
-									href="#collapsepagestudent"
-									role="button" aria-expanded="false" aria-controls="collapsepage">
-									<i class="fas fa-user-graduate fa-fw me-2"></i>Student
-								</a>
-								<ul class="nav collapse flex-column" id="collapsepagestudent"
-									data-bs-parent="#navbar-sidebar">
-									<li class="nav-item"> <a class="nav-link"
-											href="./student-add.html"> Add Students</a></li>
-									<li class="nav-item">
-										<a href="admin-student-list.html" class="nav-link">Student list</a>
-									</li>
-								</ul>
+								<a href="admin-student-list.html" class="nav-link"><i
+										class="fas fa-user-graduate fa-fw me-2"></i>Student list</a>
 							</li>
 
 							<!-- Menu item 4 -->
-							<li class="nav-item">
-								<a class="nav-link" data-bs-toggle="collapse"
-									href="#collapseinstructors" role="button" aria-expanded="false"
-									aria-controls="collapseinstructors">
-									<i class="fas fa-user-tie fa-fw me-2"></i>Instructors
-								</a>
-								<!-- Submenu -->
-								<ul class="nav collapse flex-column" id="collapseinstructors"
-									data-bs-parent="#navbar-sidebar">
-									<li class="nav-item"> <a class="nav-link"
-											href="./instructor-add.html">Add Instuctor</a></li>
-									<li class="nav-item"> <a class="nav-link"
-											href="./instructor-list.html">Instructors List</a></li>
-								</ul>
-							</li>
+							<li class="nav-item"> <a class="nav-link"
+									href="./instructor-list.html">	<i class="fas fa-user-tie fa-fw me-2"></i>Instructors List</a></li>
 
 							<!-- Menu item 5 -->
 							<li class="nav-item"> <a class="nav-link" href="admin-review.html"><i
@@ -145,27 +126,6 @@
 							<!-- Menu item 7 -->
 							<li class="nav-item"> <a class="nav-link" href="admin-setting.html"><i
 										class="fas fa-user-cog fa-fw me-2"></i>Admin Settings</a></li>
-
-							<!-- Menu item 8 -->
-							<li class="nav-item">
-								<a class="nav-link" data-bs-toggle="collapse"
-									href="#collapseauthentication" role="button" aria-expanded="false"
-									aria-controls="collapseauthentication">
-									<i class="bi bi-lock fa-fw me-2"></i>Authentication
-								</a>
-								<!-- Submenu -->
-								<ul class="nav collapse flex-column" id="collapseauthentication"
-									data-bs-parent="#navbar-sidebar">
-									<li class="nav-item"> <a class="nav-link" href="sign-up.html">Sign
-											Up</a></li>
-									<li class="nav-item"> <a class="nav-link" href="sign-in.html">Sign
-											In</a></li>
-									<li class="nav-item"> <a class="nav-link"
-											href="forgot-password.html">Forgot Password</a></li>
-									<li class="nav-item"> <a class="nav-link"
-											href="admin-error-404.html">Error 404</a></li>
-								</ul>
-							</li>
 
 							<!-- Sidebar footer START -->
 							<div class="px-3 mt-auto pt-3">

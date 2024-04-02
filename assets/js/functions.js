@@ -1299,21 +1299,3 @@ window.addEventListener("DOMContentLoaded", () => {
 // document.getElementById('signin').addEventListener('click', function() {
 //   document.getElementById('loginForm').style.display = 'block';
 // });
-
-function login() {
-  var username = document.getElementById('email').value;
-  var password = document.getElementById('password').value;
-
-  if (username === 'admin' && password === 'admin') {
-    // Lưu trạng thái đăng nhập
-    localStorage.setItem('loggedIn', true);
-    // Chuyển hướng người dùng đến trang index
-    window.location.href = "/index.html";
-  } else {
-    alert('Invalid username or password');
-  }
-}
-
-function log(){
-  document.getElementById('signin').style.display='block';
-}
