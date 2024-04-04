@@ -28,7 +28,7 @@
 		<link rel="stylesheet" type="text/css" href="assets/vendor/aos/aos.css">
 		<link rel="stylesheet" type="text/css"
 			href="assets/vendor/overlay-scrollbar/css/overlayscrollbars.min.css">
-			<link rel="stylesheet" type="text/css"
+		<link rel="stylesheet" type="text/css"
 			href="assets/vendor/choices/css/choices.min.css">
 
 		<!-- Theme CSS -->
@@ -80,9 +80,10 @@
 					</div>
 					<div class="modal-body d-flex">
 						<div class="col-2 g-2 shadow-lg" style=" border-radius: 6px">
-							<img src="./assets/images/avatar/651.png" class="img-fluid w-500px rounded" alt="...">
+							<img src="./assets/images/avatar/651.png"
+								class="img-fluid w-500px rounded" alt="...">
 						</div>
-						<form class="col row ps-3 g-3" >
+						<form class="col row ps-3 g-3">
 							<div class="col-md-4">
 								<label for="name" class="form-label">Lecturers name <span
 										class="text-danger">*</span></label>
@@ -221,31 +222,36 @@
 						</form>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-primary" id="editButton" onclick="edit()">Edit</button>
-						<button type="button" class="btn btn-secondary" id="closeButton" style="display: none;" data-bs-dismiss="modal">Close</button>
-						<button type="button" class="btn btn-primary" id="saveButton" style="display: none;" onclick="saveChanges()">Save changes</button>
-					  </div>
+						<button type="button" class="btn btn-primary" id="editButton"
+							onclick="edit()">Edit</button>
+						<button type="button" class="btn btn-secondary" id="closeButton"
+							style="display: none;" data-bs-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary" id="saveButton"
+							style="display: none;" onclick="saveChanges()">Save changes</button>
+					</div>
 				</div>
 			</div>
 		</div>
 		<!-- Delete Modal-->
-		<div class="modal" id="exampleDelete" tabindex="-1">
+		<div class="modal fade" id="exampleDelete" tabindex="-1">
 			<div class="modal-dialog">
-			  <div class="modal-content">
-				<div class="modal-header">
-				  <h5 class="modal-title">Delete</h5>
-				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Delete</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal"
+							aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<p>Do you want to delete</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary"
+							data-bs-dismiss="modal">No</button>
+						<button type="button" class="btn btn-primary">Yes</button>
+					</div>
 				</div>
-				<div class="modal-body">
-				  <p>Do you want to delete</p>
-				</div>
-				<div class="modal-footer">
-				  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
-				  <button type="button" class="btn btn-primary">Yes</button>
-				</div>
-			  </div>
 			</div>
-		  </div>
+		</div>
 
 		<!-- **************** MAIN CONTENT START **************** -->
 		<main>
@@ -723,12 +729,12 @@
 												<!-- Table head -->
 												<thead>
 													<tr>
-										<th scope="col" class="border-0 rounded-start">Student name</th>
-										<th scope="col" class="border-0">Join date</th>
-										<!-- <th scope="col" class="border-0">Progress</th> -->
-										<th scope="col" class="border-0">Courses</th>
-										<!-- <th scope="col" class="border-0">Payments</th> -->
-										<th scope="col" class="border-0 rounded-end">Action</th>
+														<th scope="col" class="border-0 rounded-start">Student name</th>
+														<th scope="col" class="border-0">Join date</th>
+														<!-- <th scope="col" class="border-0">Progress</th> -->
+														<th scope="col" class="border-0">Courses</th>
+														<!-- <th scope="col" class="border-0">Payments</th> -->
+														<th scope="col" class="border-0 rounded-end">Action</th>
 													</tr>
 												</thead>
 
@@ -760,7 +766,7 @@
 														<td>05 April 2003</td>
 
 														<!-- Table data -->
-										<!-- <td class="text-center text-sm-start">
+														<!-- <td class="text-center text-sm-start">
 											<div class="overflow-hidden">
 												<h6 class="mb-0">85%</h6>
 												<div class="progress progress-sm bg-primary bg-opacity-10">
@@ -770,11 +776,11 @@
 											</div>
 										</td> -->
 
-										<!-- Table data -->
-										<td>21</td>
+														<!-- Table data -->
+														<td>21</td>
 
-										<!-- Table data -->
-										<!-- <td>$6,205</td> -->
+														<!-- Table data -->
+														<!-- <td>$6,205</td> -->
 
 														<td>
 															<a href="#" class="btn btn-light btn-round me-1 mb-1 mb-md-0"
@@ -813,12 +819,12 @@
 																		Bình</span>
 																</div>
 															</div>
-															
+
 														</td>
 
 														<!-- Table data -->
 														<td>11 Sep 2003</td>
-														
+
 														<!-- Table data -->
 														<!-- <td class="text-center text-sm-start">
 											<div class="overflow-hidden">
@@ -891,7 +897,7 @@
 										</td> -->
 
 														<!-- Table data -->
-														<td>21</td> 
+														<td>21</td>
 
 														<!-- Table data -->
 														<!-- <td>$6,205</td> -->
@@ -931,7 +937,7 @@
 																			Thành Tâm</a></h6>
 																	<span class="text-body small"><i
 																			class="fas fa-fw fa-map-marker-alt me-1 mt-1"></i>Kon
-																	Tum</span>
+																		Tum</span>
 																</div>
 															</div>
 														</td>
@@ -1071,7 +1077,7 @@
 										</td> -->
 
 														<!-- Table data -->
-														<td>21</td> 
+														<td>21</td>
 
 														<!-- Table data -->
 														<!-- <td>$6,205</td> -->
@@ -1156,7 +1162,6 @@
 			<script
 				src="assets/vendor/overlay-scrollbar/js/overlayscrollbars.min.js"></script>
 			<script src="assets/vendor/choices/js/choices.min.js"></script>
-
 
 			<!-- Template Functions -->
 			<script src="assets/js/functions.js"></script>
