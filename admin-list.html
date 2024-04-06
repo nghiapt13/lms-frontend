@@ -65,6 +65,36 @@
 		}
 		</script>
 	<body>
+		<!-- Thông báo toast -->
+		<div class="toast-container position-fixed bottom-0 end-0 ">
+			<div id="liveToast" class="toast bg-danger text-white" role="alert"
+				aria-live="assertive"
+				aria-atomic="true" style="backdrop-filter: blur(10px);">
+				<div class="toast-header">
+		
+					<strong class="me-auto ">System</strong>
+					<small>Just now</small>
+					<button type="button" class="btn-close" data-bs-dismiss="toast"
+						aria-label="Close"></button>
+				</div>
+				<div class="toast-body">
+					Successfully deleted admin from the system
+				</div>
+			</div>
+		</div>
+		<!-- Toast thông báo yes/no -->
+		<div class="toast-container fade show position-fixed bottom-0 end-0 ">
+			<div id="choiceToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" style="backdrop-filter: blur(10px);">
+				<div class="toast-body  ">
+					Do you want to delete?
+					<div class="mt-2 pt-2 border-top">
+						<button type="button" class="btn btn-primary btn-sm" id="liveToastBtn"data-bs-dismiss="toast">Yes</button>
+						<button type="button" class="btn btn-secondary btn-sm"
+							data-bs-dismiss="toast">No</button>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!--Big modal -->
 		<div class="modal modal-xl fade" id="exampleModal" tabindex="-1"
 			aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -573,6 +603,10 @@
 									</div>
 
 									<div class="col-md-2">
+										<button type="button" class="btn btn-primary" id="liveToastBtn">Show
+											live toast</button>
+
+										<!-- TODO: Live toast button -->
 										<a type="button" href="./add-admin.html" class="btn btn-info mb-0">Add
 											new admin</a>
 									</div>
@@ -646,7 +680,8 @@
 																<i class="bi bi-pencil"></i>
 															</a>
 															<button class="btn btn-light btn-round mb-0"
-																data-bs-toggle="tooltip" data-bs-placement="top" title="Delete">
+																data-bs-toggle="modal" data-bs-placement="top" title="Delete"
+																id="delete">
 																<i class="bi bi-trash"></i>
 															</button>
 														</td>
@@ -996,15 +1031,15 @@
 
 			<!-- Bootstrap JS -->
 			<script
-				src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+				src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 			<!-- Vendors -->
-			<script src="assets/vendor/aos/aos.js"></script>
+			<script src="./assets/vendor/aos/aos.js"></script>
 			<script
-				src="assets/vendor/overlay-scrollbar/js/overlayscrollbars.min.js"></script>
+				src="./assets/vendor/overlay-scrollbar/js/overlayscrollbars.min.js"></script>
 
 			<!-- Template Functions -->
-			<script src="assets/js/functions.js"></script>
+			<script src="./assets/js/functions.js"></script>
 
 		</body>
 	</html>

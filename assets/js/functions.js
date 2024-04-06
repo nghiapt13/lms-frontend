@@ -1299,3 +1299,23 @@ window.addEventListener("DOMContentLoaded", () => {
 // document.getElementById('signin').addEventListener('click', function() {
 //   document.getElementById('loginForm').style.display = 'block';
 // });
+
+const toastTrigger = document.getElementById('liveToastBtn')
+const toastLiveExample = document.getElementById('liveToast')
+
+if (toastTrigger) {
+  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+  toastTrigger.addEventListener('click', () => {
+    toastBootstrap.show()
+  })
+}
+
+const choicetoastTrigger = document.getElementById('delete')
+const choiceToast = document.getElementById('choiceToast')
+
+if (choicetoastTrigger) {
+  const toastDelete = bootstrap.Toast.getOrCreateInstance(choiceToast)
+  choicetoastTrigger.addEventListener('click', () => {
+    toastDelete.show()
+  })
+}
