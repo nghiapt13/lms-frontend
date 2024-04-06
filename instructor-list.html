@@ -28,7 +28,7 @@
 		<link rel="stylesheet" type="text/css" href="assets/vendor/aos/aos.css">
 		<link rel="stylesheet" type="text/css"
 			href="assets/vendor/overlay-scrollbar/css/overlayscrollbars.min.css">
-			<link rel="stylesheet" type="text/css"
+		<link rel="stylesheet" type="text/css"
 			href="assets/vendor/choices/css/choices.min.css">
 
 		<!-- Theme CSS -->
@@ -80,20 +80,21 @@
 					</div>
 					<div class="modal-body d-flex">
 						<div class="col-2 g-2 shadow-lg" style=" border-radius: 6px">
-							<img src="./assets/images/avatar/651.png" class="img-fluid w-500px rounded" alt="...">
+							<img src="./assets/images/avatar/651.png"
+								class="img-fluid w-500px rounded" alt="...">
 						</div>
-						<form class="col row ps-3 g-3" >
+						<form class="col row ps-3 g-3">
 							<div class="col-md-4">
 								<label for="name" class="form-label">Lecturers name <span
 										class="text-danger">*</span></label>
-								<input type="name" class="form-control" id="email">
+								<input type="name" class="form-control" id="email" value="Phạm Trung Nghĩa" readonly>
 							</div>
 							<div class="col-md-2">
 								<label for="gender" class="form-label">Gender <span
 										class="text-danger">*</span></label>
 								<select class="form-select" aria-label="Default select example">
-									<option selected>Choose</option>
-									<option value="1">Male</option>
+									<option>Choose</option>
+									<option selected value="1">Male</option>
 									<option value="2">Female</option>
 								</select>
 							</div>
@@ -118,7 +119,7 @@
 												<option>10</option>
 												<option>11</option>
 												<option>12</option>
-												<option>13</option>
+												<option selected>13</option>
 												<option>14</option>
 												<option>15</option>
 												<option>16</option>
@@ -148,7 +149,7 @@
 												<option>Mar</option>
 												<option>Apr</option>
 												<option>Jun</option>
-												<option>Jul</option>
+												<option selected>Jul</option>
 												<option>Aug</option>
 												<option>Sep</option>
 												<option>Oct</option>
@@ -173,7 +174,7 @@
 												<option>2000</option>
 												<option>2001</option>
 												<option>2002</option>
-												<option>2003</option>
+												<option selected>2003</option>
 												<option>2004</option>
 												<option>2005</option>
 											</select>
@@ -183,12 +184,12 @@
 							</div>
 							<div class="col-4">
 								<label for="name" class="form-label">Phone number</label>
-								<input type="phone" class="form-control" id="name">
+								<input type="phone" class="form-control" id="name" value="12345678">
 							</div>
 							<div class="col-7">
 								<label for="address" class="form-label">Address <span
 										class="text-danger">*</span></label>
-								<input type="text" class="form-control" id="address">
+								<input type="text" class="form-control" id="address" value="66 Vo Van Tan" readonly>
 							</div>
 							<div class="col-10 mb-1">
 								<hr>
@@ -202,7 +203,7 @@
 									<option value="1">FPT University</option>
 									<option value="2">Greenwich Vietnam</option>
 									<option value="3">FPT Polytechnic</option>
-									<option value="4">BTEC FPT British College</option>
+									<option selected value="4">BTEC FPT British College</option>
 									<option value="5">Melbourne Polytechnic</option>
 								</select>
 							</div>
@@ -221,14 +222,16 @@
 						</form>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-primary" id="editButton" onclick="edit()">Edit</button>
-						<button type="button" class="btn btn-secondary" id="closeButton" style="display: none;" data-bs-dismiss="modal">Close</button>
-						<button type="button" class="btn btn-primary" id="saveButton" style="display: none;" onclick="saveChanges()">Save changes</button>
-					  </div>
+						<button type="button" class="btn btn-primary" id="editButton"
+							onclick="edit()">Edit</button>
+						<button type="button" class="btn btn-secondary" id="closeButton"
+							style="display: none;" data-bs-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary" id="saveButton"
+							style="display: none;" onclick="saveChanges()">Save changes</button>
+					</div>
 				</div>
 			</div>
 		</div>
-
 
 		<!-- **************** MAIN CONTENT START **************** -->
 		<main>
@@ -740,7 +743,7 @@
 														</td>
 
 														<!-- Table data -->
-														<td>29 Aug 2021</td>
+														<td>05 April 2003</td>
 
 														<td>
 															<a href="#" class="btn btn-light btn-round me-1 mb-1 mb-md-0"
@@ -775,14 +778,15 @@
 																			Thái</a></h6>
 																	<span class="text-body small"><i
 																			class="fas fa-fw fa-map-marker-alt me-1 mt-1"></i>Quảng
-																		Nam</span>
+																		Bình</span>
 																</div>
 															</div>
+															
 														</td>
 
 														<!-- Table data -->
-														<td>29 Aug 2021</td>
-
+														<td>29 Aug 2003</td>
+														
 														<!-- Table data -->
 														<!-- <td class="text-center text-sm-start">
 											<div class="overflow-hidden">
@@ -1110,7 +1114,6 @@
 			<script
 				src="assets/vendor/overlay-scrollbar/js/overlayscrollbars.min.js"></script>
 			<script src="assets/vendor/choices/js/choices.min.js"></script>
-
 
 			<!-- Template Functions -->
 			<script src="assets/js/functions.js"></script>
